@@ -68,3 +68,4 @@ class PasswordGeneratorTest extends TestCase
         $response->assertJsonValidationErrors(['length']);
     }
 }
+

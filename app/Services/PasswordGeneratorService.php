@@ -119,3 +119,4 @@ class PasswordGeneratorService
         return 'Sangat Kuat';
     }
 }
+

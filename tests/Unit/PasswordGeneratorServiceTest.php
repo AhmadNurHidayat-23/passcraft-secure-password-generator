@@ -75,3 +75,4 @@ class PasswordGeneratorServiceTest extends TestCase
         $this->assertSame('Sangat Kuat', $veryStrong);
     }
 }
+
