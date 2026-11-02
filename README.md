@@ -1,6 +1,6 @@
 # PassCraft — Generator Kata Sandi Aman
 
-PassCraft adalah aplikasi utilitas berbasis web yang dirancang khusus untuk menghasilkan kata sandi acak yang kuat, aman secara kriptografi, dan mudah digunakan. Aplikasi ini dibangun dengan pendekatan filosofi desain **Clean Minimalist / Swiss Minimalist**, mengutamakan tipografi presisi, hierarki visual yang jelas, serta fungsionalitas tanpa elemen dekorasi yang tidak perlu (*zero AI-slop*).
+PassCraft adalah aplikasi utilitas berbasis web yang dirancang khusus untuk menghasilkan kata sandi acak yang kuat, aman secara kriptografi, dan mudah digunakan.
 
 ## Gambaran Sistem
 
@@ -29,20 +29,3 @@ Sistem PassCraft berfokus pada satu tujuan utama: menyediakan pembuatan kata san
 
 5. **Penyalinan Instan Satu Klik**
    - Fitur salin ke papan klip (*clipboard*) yang cepat dengan status umpan balik visual (*"Tersalin!"*).
-
-## Prinsip dan Estetika Desain
-
-Sistem PassCraft dirancang dengan panduan desain **Swiss Minimalist**:
-- **Fokus Tunggal**: Antarmuka terpusat pada satu kontainer generator tanpa sidebar, dashboard, atau elemen pengalih perhatian.
-- **Tipografi Bersih**: Tipografi sans-serif modern Inter dipadukan dengan tipografi monospace untuk pembacaan karakter kata sandi yang jelas dan tidak ambigu.
-- **Palet Warna Netral**: Menggunakan latar belakang off-white (`#fbfbfb`), kontainer putih (`#ffffff`), teks hitam (`#111827`), dan abu-abu netral (`#6b7280`).
-- **Tanpa Elemen Artifisial**: Meniadakan gradien warna berlebih, efek neon/glow, glassmorphism, maupun animasi lambat demi performa dan kejelasan utilitas.
-- **Responsif**: Penataan tata letak proporsional yang beradaptasi secara optimal pada resolusi desktop maupun layar perangkat seluler.
-
-## Arsitektur Teknis
-
-- **Framework**: Laravel 13
-- **Templating**: Laravel Blade (Server-Side Rendering)
-- **Styling**: Vanilla CSS modular dan terpisah dari markup Blade
-- **Interaktivitas**: Vanilla JavaScript murni tanpa dependensi eksternal
-- **Keamanan**: CSPRNG (*Cryptographically Secure Pseudo-Random Number Generator*)
